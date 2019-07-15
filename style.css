@@ -1,0 +1,1184 @@
+body {
+    margin: 0;
+}
+.navbar {
+    border-radius: 0;
+    margin: 0;
+}
+#menu a {
+    font-size: 14px;
+}
+.navbar-right {
+    font-size: 11px;
+}
+.navbar-right li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.navbar-right .active a {
+    border-left: 2px solid white;
+}
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: rgb(34, 34, 34);
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: rgb(34, 34, 34);
+}
+.ca-inner {
+    height: 80vh;
+    display: flex;
+}
+.carousel-indicators li {
+    width: 18px;
+    height: 3px;
+}
+.carousel-indicators li.active {
+    width: 18px;
+    height: 4px;
+}
+.carousel-caption {
+    padding-bottom: 210px;
+}
+.one {
+    text-align: right;
+}
+.one button {
+    background-color: rgb(250, 56, 56);
+}
+.one button:hover {
+    background-color: white;
+    color: rgb(250, 56, 56)
+}
+.two button, #newsletter button {
+    background-color: rgb(51, 122, 183);
+}
+.two button:hover, #newsletter button:hover {
+    background-color: white;
+    color: rgb(51, 122, 183)
+}
+.three button {
+    background-color: rgb(33, 170, 33);
+}
+.three button:hover {
+    background-color: white;
+    color: rgb(33, 170, 33)
+}
+.carousel-caption p, .carousel-caption button {
+    font-size: 12px;
+}
+.gear {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.gear span, .sketch span {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.gear p {
+    font-size: 10px;
+    padding: 0 10px;
+}
+.lights {
+    background: url(images/lights.jpg) no-repeat top fixed;
+    background-size: cover;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.lights p, .laptop p, .gallery p, #newsletter p, .about p, .laptop1 p, .blog p, .blog2 p, .forms textarea {
+    font-size: 11px;
+}
+.laptop, .laptop1 {
+    display: flex;
+    align-items: center;
+}
+.laptop button {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    font-size: 10px;
+}
+.laptop button:hover {
+    background-color: red;
+    color: white;
+}
+.sketch {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/media.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+}
+.sketch h3 {
+    margin: 15px;
+}
+.sketch a {
+    color: white;
+}
+.sketch a:hover, .gallery a:hover {
+    cursor: pointer;
+}
+.gallery p {
+    margin-bottom: 25px;
+}
+.gallery .modal-content {
+    width: 532px;
+}
+.top, .bottom {
+    display: flex;
+    justify-content: center;   
+}
+.bottom {
+    margin-bottom: 8px;
+}
+.pics {
+    padding: 10px 15px;
+}
+#newsletter {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+#newsletter input {
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 6px 10px;
+    margin-right: 20px;
+    width: 210px;
+    margin-bottom: 20px;
+}
+#newsletter button {
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+.footer p {
+    font-size: 10px;
+}
+.about {
+    height: 58vh;
+    background: url(images/image1.jpg) no-repeat top fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image {
+    margin-top: -45px;
+}
+.red {
+    background-color: red;
+    color: white;
+    margin: 7px 10px;
+    border-radius: 3px;
+    padding-top: 15px;
+}
+.red h4 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.red p {
+    padding: 0;
+}
+.red1 {
+    margin-top: 70px;
+}
+.red2 {
+    margin-bottom: 25px;
+}
+#myCarousel1 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+#myCarousel1 p {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+#myCarousel1 h6, .blog h6 {
+    font-size: 10px;
+    color: grey;
+    margin: 5px;
+}
+.grey {
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.plan h4 {
+    font-size: 13px;
+}
+.plan h6, .staff h6 {
+    font-size: 11px;
+}
+.plan button {
+    background-color: rgb(217, 83, 79);
+    color: white;
+    font-size: 11px;
+}
+.plan button:hover {
+    background-color: rgb(189, 49, 49);
+    color: white;
+}
+.plan li {
+    font-size: 11px;
+}
+.question {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.question h4 {
+    text-align: center;
+    margin: 25px 0 20px 0;
+}
+.question hr {
+    border-top: 1px solid rgb(33, 33, 33);
+    width: 90%;
+}
+.panel1 {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-size: 11px;
+}
+.panel1 h3 {
+    font-size: 13px;
+}
+.panel1 span {
+    padding: 10px 285px 10px 5px;
+}
+.red3 {
+    background-color: red;
+    color: white;
+}
+.blue {
+    background-color: rgb(51, 79, 255);
+    color: white;
+}
+.red3 h6, .blue h6 {
+    color: white;
+}
+.blog, .blog2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.blog span {
+    font-style: italic;
+}
+.blog h5 {
+    font-size: 16px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.blog p, .blog2 p {
+    padding-left: 5px;
+}
+.blog2 h6 {
+    font-size: 13px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.forms input, .forms button {
+    font-size: 11px;
+    padding: 0 10px;
+}
+.form-control, .forms button {
+    height: 28px;
+}
+.forms button {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+.forms button:hover {
+    background-color: red;
+    color: white;
+}
+.form-group {
+    padding: 0 10px;
+}
+.forms h4, hr {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.staff {
+    display: flex;
+    justify-content: space-around;
+}
+.staff1 {
+    width: 22vh;
+}
+/*-----TABLET VIEW-----*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #menu a {
+        font-size: 18px;
+        margin: 12px;
+    }
+    .navbar-right {
+        font-size: 14px;
+    }
+    .navbar-right li a {
+        padding-top: 13px;
+        padding-bottom: 15px;
+        margin-top: 13px;
+    }
+    .ca-inner {
+        height: 95vh;
+    }
+    .carousel-caption {
+        padding-top: 150px;
+    }
+    .gear {
+        width: 90%;
+    }
+    .gear span, .sketch span {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .gear h5, .plan h5 {
+        font-size: 18px;
+    }
+    .gear p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .lights {
+        display: flex;
+        align-items: center;
+    }
+    .lights h3, .sketch h3, .gallery h3, #newsletter h3, .about h3, .laptop1 h3 {
+        font-size: 30px;
+    }
+    .lights p, .gallery p, .footer p, #newsletter p, .about p, .laptop1 p, #myCarousel1 p, 
+    .plan h6, .plan li, .plan button, .faq, .blog p, .blog2 p, .forms input, .forms button, 
+    .forms textarea, .staff h6 {
+        font-size: 14px;
+    }
+    .laptop h4 {
+        font-size: 25px;
+        margin-left: 8px;
+        margin-top: 20px;
+    }
+    .laptop p {
+        font-size: 14px;
+        margin-left: 8px;
+    }
+    .laptop button {
+        margin-left: 8px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .laptop2 {
+        align-self: flex-start;
+    }
+    .pics {
+        padding: 15px 20px;
+    }
+    #newsletter h3 {
+        padding-top: 15px;
+    }
+    #newsletter p {
+        padding: 0 10px;
+    }
+    #newsletter input {
+        font-size: 15px;
+        padding: 6px 12px;
+        margin-right: 25px;
+        width: 100px;
+        margin-bottom: 30px;
+    }
+    #newsletter button {
+        font-size: 15px;
+        padding: 6px 12px;
+        border: none;
+        margin-bottom: 5px;
+    }
+    .news {
+        padding-left: 14px;
+    }
+    .footer p {
+        padding-top: 6px;
+        padding-bottom: 10px;
+    }
+    .about {
+        background: url(images/image1.jpg) no-repeat left top fixed;
+        height: 88vh;
+    }
+    .about p {
+        padding: 10px;
+    }
+    .image {
+        margin-top: -130px;
+    }
+    .laptop1 h3 {
+        margin-top: 35px;
+        margin-left: 8px;
+    }
+    .laptop1 p {
+        margin-left: 8px;
+    }
+    .red1 {
+        margin-top: 40px;
+    }
+    .red1, .red2 {
+        width: 100%;
+    }
+    .red i {
+        font-size: 30px;
+        margin: 10px 0 18px 0;
+    }
+    .red h4, .question h4, .forms h4 {
+        font-size: 24px;
+    }
+    .red p {
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+    .red {
+        margin: 7px 15px 12px 15px;
+    }
+    .red2 {
+        margin-bottom: 35px;
+    }
+    #myCarousel1 h6 {
+        font-size: 12px;
+        margin: 10px;
+    }
+    #myCarousel1 h4 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .test p {
+        padding: 0 50px;
+    }
+    .grey {
+        width: 5%;
+    }
+    .plan h4, .question h3 {
+        font-size: 16px;
+    }
+    .panel1 span {
+        padding: 10px 65px 10px 8px;
+    }
+    .blog {
+        padding-right: 13px;
+    }
+    .blog h5 {
+        font-size: 24px;
+        font-weight: 100;
+    }
+    .blog h6 {
+        font-size: 12px;
+    }
+    .white, .red3, .blue {
+        margin-bottom: 25px;
+    }
+    .blog2 h6, .staff h5 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .forms hr {
+        width: 93%;
+    }
+    .form-control, .forms button {
+        height: 34px;
+    }
+    .forms button {
+        margin-bottom: 30px;
+    }
+    .forms {
+        padding-right: 25px;
+    }
+    .question hr {
+        width: 80%;
+    }
+    .staff {
+        justify-content: center;
+    }
+    .staff1 {
+        width: 31vh;
+        padding: 0 22px;
+    }
+}
+/*-----MOBILE-L VIEW-----*/
+@media (min-width: 425px) and (max-width: 767px) {
+    #menu a {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    .carousel-caption {
+        visibility: hidden;
+    }
+    .ca-inner {
+        height: 100vh;
+    }
+    .ca-inner .item img {
+        width: 100%;
+        height: 100vh;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: rgb(34, 34, 34);
+    }
+    .gear {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .gear span, .sketch span {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .gear h5, .plan h5 {
+        font-size: 18px;
+    }
+    .gear p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .lights {
+        background: url(images/lights.jpg) no-repeat top scroll;
+        background-size: cover;
+        padding: 30px 0;
+    }
+    .lights h3, .sketch h3, .gallery h3, #newsletter h3, .about h3, .laptop1 h3 {
+        font-size: 30px;
+    }
+    .lights p, .laptop p, .laptop button, .gallery p, #newsletter p, .news button, 
+    .footer p, .about p, .laptop1 p, .red p, #myCarousel1 p, .faq, .plan h6, .plan li, 
+    .plan button, .blog p, .blog2 p, .forms input, .forms button, .forms textarea, .staff h6 {
+        font-size: 14px;
+    }
+    .laptop {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .laptop h4, .red h4, .question h4, .forms h4 {
+        font-size: 24px;
+    }
+    .laptop2 {
+        padding-top: 20px;
+    }
+    .sketch {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/media.jpg) no-repeat center scroll;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .top, .bottom {
+        flex-direction: column;  
+    }
+    .pics {
+        padding: 15px 20px;
+    }
+    .gallery .modal-content, .sketch .modal-content {
+        width: 405px;
+    }
+    .gallery .modal-content img, .sketch .modal-content iframe {
+        width: 373px;
+    }
+    #newsletter {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    #newsletter p {
+        padding: 0 10px;
+    }
+    #newsletter input {
+        font-size: 15px;
+        padding: 6px 12px;
+        width: 93%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .news {
+        text-align: center;
+    }
+    #newsletter button {
+        font-size: 14px;
+        padding: 6px 12px;
+        border: none;
+    }
+    .about {
+        height: 95vh;
+        background: url(images/image1.jpg) no-repeat top left fixed;
+    }
+    .image {
+        display: none;
+    }
+    .laptop1 {
+        height: unset;
+        margin-top: 15px;
+    }
+    .red1 {
+        margin-top: 15px;
+        padding-bottom: 0;
+    }
+    .red2 {
+        padding-top: 0;
+    }
+    .red {
+        margin: 10px 0;
+    }
+    .red i {
+        font-size: 30px;
+        margin: 10px 0 18px 0;
+    }
+    #myCarousel1 h4 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #myCarousel1 h6 {
+        font-size: 12px;
+        margin: 10px;
+    }
+    .grey {
+        width: 10%;
+    }
+    .test p {
+        padding: 0 50px;
+    }
+    .about1 {
+        height: 85vh;
+    }
+    .plan {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .plan1 {
+        padding: 0;
+    }
+    .question {
+        padding-bottom: 15px;
+    }
+    .plan h4, .question h3 {
+        font-size: 16px;
+    }
+    .panel1 span {
+        padding: 10px 230px 10px 8px;
+    }
+    .about2 {
+        height: 89vh;
+    }
+    .blog, .blog2 {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .blog h5 {
+        font-size: 24px;
+        font-weight: 100;
+        padding-top: 20px;
+    }
+    .blog h6 {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .white, .red3, .blue {
+        padding: 12px;
+    }
+    .blog2 h6, .staff h5 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .blog2 h6 {
+        padding-left: 10px;
+    }
+    .blog2 p {
+        padding-left: 10px;
+    }
+    .plan2 {
+        padding-top: 10px;
+    }
+    .plan3 {
+        padding-top: 20px;
+    }
+    .forms hr {
+        width: 93%;
+    }
+    .form-control, .forms button {
+        height: 34px;
+    }
+    .forms button {
+        margin-bottom: 30px;
+    }
+    .staff {
+        flex-direction: column;
+        align-items: center;
+    }
+    .question h4 {
+        padding: 14px;
+    }
+    .question hr {
+        width: 60%;
+    }
+    .staff1 {
+        width: 33vh;
+    }
+}
+/*-----MOBILE-M VIEW-----*/
+@media (min-width: 375px) and (max-width: 424px) {
+    #menu a {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    .carousel-caption {
+        visibility: hidden;
+    }
+    .ca-inner {
+        height: 100vh;
+    }
+    .ca-inner .item img {
+        width: 100%;
+        height: 100vh;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: rgb(34, 34, 34);
+    }
+    .gear {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .gear span, .sketch span {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .gear h5, .plan h5 {
+        font-size: 18px;
+    }
+    .gear p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .lights {
+        background: url(images/lights.jpg) no-repeat top scroll;
+        background-size: cover;
+        padding: 30px 0;
+    }
+    .lights h3, .sketch h3, .gallery h3, #newsletter h3, .about h3, .laptop1 h3 {
+        font-size: 30px;
+    }
+    .lights p, .laptop p, .laptop button, .gallery p, #newsletter p, .news button, 
+    .footer p, .about p, .laptop1 p, .red p, #myCarousel1 p, .faq, .plan h6, .plan li, 
+    .plan button, .blog p, .blog2 p, .forms input, .forms button, .forms textarea, .staff h6 {
+        font-size: 14px;
+    }
+    .laptop {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .laptop h4, .red h4, .question h4, .forms h4 {
+        font-size: 24px;
+    }
+    .laptop2 {
+        padding-top: 20px;
+    }
+    .sketch {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/media.jpg) no-repeat center scroll;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .top, .bottom {
+        flex-direction: column;  
+    }
+    .pics {
+        padding: 15px 20px;
+    }
+    .gallery .modal-content, .sketch .modal-content {
+        width: 355px;
+    }
+    .gallery .modal-content img, .sketch .modal-content iframe {
+        width: 323px;
+    }
+    #newsletter {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    #newsletter p {
+        padding: 0 10px;
+    }
+    #newsletter input {
+        font-size: 15px;
+        padding: 6px 12px;
+        width: 93%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .news {
+        text-align: center;
+    }
+    #newsletter button {
+        font-size: 14px;
+        padding: 6px 12px;
+        border: none;
+    }
+    .about {
+        height: 95vh;
+        background: url(images/image1.jpg) no-repeat top left fixed;
+    }
+    .about p {
+        padding: 10px;
+    }
+    .image {
+        display: none;
+    }
+    .laptop1 {
+        height: unset;
+        margin-top: 15px;
+    }
+    .red1 {
+        margin-top: 15px;
+        padding-bottom: 0;
+    }
+    .red2 {
+        padding-top: 0;
+    }
+    .red {
+        margin: 10px 0;
+    }
+    .red i {
+        font-size: 30px;
+        margin: 10px 0 18px 0;
+    }
+    #myCarousel1 h4 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #myCarousel1 h6 {
+        font-size: 12px;
+        margin: 10px;
+    }
+    .grey {
+        width: 10%;
+    }
+    .test p {
+        padding: 0 50px;
+    }
+    .about1 {
+        height: 85vh;
+    }
+    .plan {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .plan1 {
+        padding: 0;
+    }
+    .question {
+        padding-bottom: 15px;
+    }
+    .plan h4, .question h3 {
+        font-size: 16px;
+    }
+    .panel1 span {
+        padding: 10px 180px 10px 8px;
+    }
+    .about2 {
+        height: 89vh;
+    }
+    .blog, .blog2 {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .blog h5 {
+        font-size: 24px;
+        font-weight: 100;
+        padding-top: 20px;
+    }
+    .blog h6 {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .white, .red3, .blue {
+        padding: 12px;
+    }
+    .blog2 h6, .staff h5 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .blog2 h6 {
+        padding-left: 10px;
+    }
+    .blog2 p {
+        padding-left: 10px;
+    }
+    .plan2 {
+        padding-top: 10px;
+    }
+    .plan3 {
+        padding-top: 20px;
+    }
+    .forms hr {
+        width: 93%;
+    }
+    .form-control, .forms button {
+        height: 34px;
+    }
+    .forms button {
+        margin-bottom: 30px;
+    }
+    .staff {
+        flex-direction: column;
+        align-items: center;
+    }
+    .question h4 {
+        padding: 14px;
+    }
+    .question hr {
+        width: 60%;
+    }
+    .staff1 {
+        width: 33vh;
+    }
+}
+/*-----MOBILE-S VIEW-----*/
+@media (min-width: 320px) and (max-width: 374px) {
+    #menu a {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    .carousel-caption {
+        visibility: hidden;
+    }
+    .ca-inner {
+        height: 100vh;
+    }
+    .ca-inner .item img {
+        width: 100%;
+        height: 100vh;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: rgb(34, 34, 34);
+    }
+    .gear {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .gear span, .sketch span {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .gear h5, .plan h5 {
+        font-size: 18px;
+    }
+    .gear p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .lights {
+        background: url(images/lights.jpg) no-repeat top scroll;
+        background-size: cover;
+        padding: 30px 0;
+    }
+    .lights h3, .sketch h3, .gallery h3, #newsletter h3, .about h3, .laptop1 h3 {
+        font-size: 30px;
+    }
+    .lights p, .laptop p, .laptop button, .gallery p, #newsletter p, .news button, 
+    .footer p, .about p, .laptop1 p, .red p, #myCarousel1 p, .faq, .plan h6, .plan li, 
+    .plan button, .blog p, .blog2 p, .forms input, .forms button, .forms textarea, .staff h6 {
+        font-size: 14px;
+    }
+    .laptop {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .laptop h4, .red h4, .question h4, .forms h4 {
+        font-size: 24px;
+    }
+    .laptop2 {
+        padding-top: 20px;
+    }
+    .sketch {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/media.jpg) no-repeat center scroll;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .top, .bottom {
+        flex-direction: column;  
+    }
+    .pics {
+        padding: 15px 20px;
+    }
+    .gallery .modal-content, .sketch .modal-content {
+        width: 300px;
+    }
+    .gallery .modal-content img, .sketch .modal-content iframe {
+        width: 268px;
+    }
+    #newsletter {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    #newsletter p {
+        padding: 0 10px;
+    }
+    #newsletter input {
+        font-size: 15px;
+        padding: 6px 12px;
+        width: 93%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .news {
+        text-align: center;
+    }
+    #newsletter button {
+        font-size: 14px;
+        padding: 6px 12px;
+        border: none;
+    }
+    .about {
+        height: 95vh;
+        background: url(images/image1.jpg) no-repeat top left fixed;
+    }
+    .about p {
+        padding: 10px;
+    }
+    .image {
+        display: none;
+    }
+    .laptop1 {
+        height: unset;
+        margin-top: 15px;
+    }
+    .red1 {
+        margin-top: 15px;
+        padding-bottom: 0;
+    }
+    .red2 {
+        padding-top: 0;
+    }
+    .red {
+        margin: 10px 0;
+    }
+    .red i {
+        font-size: 30px;
+        margin: 10px 0 18px 0;
+    }
+    #myCarousel1 h4 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #myCarousel1 h6 {
+        font-size: 12px;
+        margin: 10px;
+    }
+    .grey {
+        width: 10%;
+    }
+    .test p {
+        padding: 0 50px;
+    }
+    .about1 {
+        height: 85vh;
+    }
+    .plan {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .plan1 {
+        padding: 0;
+    }
+    .question {
+        padding-bottom: 15px;
+    }
+    .plan h4, .question h3 {
+        font-size: 16px;
+    }
+    .panel1 span {
+        padding: 10px 125px 10px 8px;
+    }
+    .about2 {
+        height: 89vh;
+    }
+    .blog, .blog2 {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .blog h5 {
+        font-size: 24px;
+        font-weight: 100;
+        padding-top: 20px;
+    }
+    .blog h6 {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .white, .red3, .blue {
+        padding: 12px;
+    }
+    .blog2 h6, .staff h5 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .blog2 h6 {
+        padding-left: 10px;
+    }
+    .blog2 p {
+        padding-left: 10px;
+    }
+    .plan2 {
+        padding-top: 10px;
+    }
+    .plan3 {
+        padding-top: 20px;
+    }
+    .forms hr {
+        width: 93%;
+    }
+    .form-control, .forms button {
+        height: 34px;
+    }
+    .forms button {
+        margin-bottom: 30px;
+    }
+    .staff {
+        flex-direction: column;
+        align-items: center;
+    }
+    .question h4 {
+        padding: 14px;
+    }
+    .question hr {
+        width: 60%;
+    }
+    .staff1 {
+        width: 33vh;
+    }
+}
